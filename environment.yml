@@ -1,0 +1,8 @@
+# conda env create --file environment.yml
+# conda activate any_app-dev
+name: any_app-dev
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - -e .
