@@ -9,7 +9,7 @@ with open("requirements.txt") as requirements_file:
 
 setup(
     name="any_app",
-    version="0.0.1",
+    version="0.0.2",
     description="Any python app",
     long_description=readme,
     author="Loïc Messal",
